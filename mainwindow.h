@@ -43,6 +43,10 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_delete_2_clicked();
+
+    void on_delete_3_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
