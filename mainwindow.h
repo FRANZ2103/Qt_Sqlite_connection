@@ -41,7 +41,16 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_clicked();
+
+    void on_delete_2_clicked();
+
+    void on_pushButton_2_clicked();
+
+    void on_load_btn_clicked();
+
+    void on_putDBtoCombobox_clicked();
+
+    void on_test_btn_clicked();
 
 private:
     Ui::MainWindow *ui;
